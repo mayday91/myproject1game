@@ -1,10 +1,36 @@
-*  {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+.h1, .click, .audio {
+    justify-content: center;
+    display: flex;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 20px;
 }
 
 body {
-    height: 100vh;
-    background-color: aqua;
+    background-image: url('514001.png');
+    background-size: cover;
+}
+
+.game {
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    width: fit-content;
+    height: fit-content;
+    padding: 5px;
+  }
+
+img {
+      padding: 5px;
+  }
+
+.button {
+    display: flex;
+    justify-content: center;
+}
+
+.reset-button {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 30px;
+    background-color: blue;
+    text-shadow: 2px black;
 }
