@@ -89,7 +89,7 @@ document.addEventListener('DOMContentLoaded', () => {
     function createGame() {
       for (let i = 0; i < cards.length; i++) {
         const card = document.createElement('img')
-        card.setAttribute('src', 'Project-1-Game-Art/mariocoinnobg.png')
+        card.setAttribute('src', 'myproject1game/Project-1-Game-Art/mariocoinnobg.png')
         card.setAttribute('data-id', i)
         card.addEventListener('click', flipCard)
         game.appendChild(card)
@@ -103,7 +103,7 @@ document.addEventListener('DOMContentLoaded', () => {
       const cardTwo = cardsChosenId[1]
       
       if(cardOne === cardTwo) {
-        cards[cardOne].setAttribute('src', 'Project-1-Game-Art/mariocoinnobg.png')
+        cards[cardOne].setAttribute('src', 'myproject1game/Project-1-Game-Art/mariocoinnobg.png')
         cards[cardTwo].setAttribute('src', 'Project-1-Game-Art/mariocoinnobg.png')
         alert("You can't click the same thing twice!")
       }
