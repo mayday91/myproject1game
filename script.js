@@ -1,67 +1,67 @@
 const cards = [
       {
           name: 'bowser',
-          img: '/Project-1-Game-Art/bowsertilenobg.png'
+          img: './Project-1-Game-Art/bowsertilenobg.png'
       },
       {
           name: 'diddykong',
-          img: '/Project-1-Game-Art/diddykongtilenobg.png'
+          img: './Project-1-Game-Art/diddykongtilenobg.png'
       },
       {
           name: 'donkeykong',
-          img: '/Project-1-Game-Art/donkeykongtilenobg.png'
+          img: './Project-1-Game-Art/donkeykongtilenobg.png'
       },
       {
           name: 'luigi',
-          img: '/Project-1-Game-Art/luigitilenobg.png'
+          img: './Project-1-Game-Art/luigitilenobg.png'
       },
       {
           name: 'mario',
-          img: '/Project-1-Game-Art/mariotilenobg.png'
+          img: './Project-1-Game-Art/mariotilenobg.png'
       },
       {
           name: 'peach',
-          img: '/Project-1-Game-Art/peachtilenobg.png'
+          img: './Project-1-Game-Art/peachtilenobg.png'
       },
       {
           name: 'yoshi',
-          img: '/Project-1-Game-Art/yoshitilenobg.png'
+          img: './Project-1-Game-Art/yoshitilenobg.png'
       },
       {
           name: 'wario',
-          img: '/Project-1-Game-Art/wariotilenobg.png'
+          img: './Project-1-Game-Art/wariotilenobg.png'
       },
       {
           name: 'bowser',
-          img: '/Project-1-Game-Art/bowsertilenobg.png'
+          img: './Project-1-Game-Art/bowsertilenobg.png'
       },
       {
           name: 'diddykong',
-          img: '/Project-1-Game-Art/diddykongtilenobg.png'
+          img: './Project-1-Game-Art/diddykongtilenobg.png'
       },
       {
           name: 'donkeykong',
-          img: '/Project-1-Game-Art/donkeykongtilenobg.png'
+          img: './Project-1-Game-Art/donkeykongtilenobg.png'
       },
       {
           name: 'luigi',
-          img: '/Project-1-Game-Art/luigitilenobg.png'
+          img: './Project-1-Game-Art/luigitilenobg.png'
       },
       {
           name: 'mario',
-          img: '/Project-1-Game-Art/mariotilenobg.png'
+          img: './Project-1-Game-Art/mariotilenobg.png'
       },
       {
           name: 'peach',
-          img: '/Project-1-Game-Art/peachtilenobg.png'
+          img: './Project-1-Game-Art/peachtilenobg.png'
       },
       {
           name: 'yoshi',
-          img: '/Project-1-Game-Art/yoshitilenobg.png'
+          img: './Project-1-Game-Art/yoshitilenobg.png'
       },
       {
           name: 'wario',
-          img: '/Project-1-Game-Art/wariotilenobg.png'
+          img: './Project-1-Game-Art/wariotilenobg.png'
       }
   ]
   
