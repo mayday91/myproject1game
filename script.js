@@ -81,7 +81,7 @@ const cards = [
 document.addEventListener('DOMContentLoaded', () => {
     createGame(game, cards)
     shuffle()
-    // reset.addEventListener('click', playAgain)
+    reset.addEventListener('click', playAgain)
 })
 
 
@@ -96,6 +96,7 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     }
   
+    
     function checkForMatch() {
       const cards = document.querySelectorAll('img')
       const cardOne = cardsChosenId[0]
