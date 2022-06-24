@@ -18,4 +18,4 @@ If you don't find the matching image a pop up will appear saying "Not a match. P
 
 <!-- After 5 failed attempts the game will start over. -->
 
-If you get all the matches before having 4 failed attempts then a pop up will appear saying "Great work! You have an awesome memory!" 
+If you get all the matches before having 6 failed attempts then a pop up will appear saying "Great work! You have an awesome memory!" 
