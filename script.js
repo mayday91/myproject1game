@@ -1,67 +1,67 @@
 const cards = [
       {
           name: 'bowser',
-          img: './Project-1-Game-Art/bowsertilenobg.png'
+          img: 'bowsertilenobg.png'
       },
       {
           name: 'diddykong',
-          img: './Project-1-Game-Art/diddykongtilenobg.png'
+          img: 'diddykongtilenobg.png'
       },
       {
           name: 'donkeykong',
-          img: './Project-1-Game-Art/donkeykongtilenobg.png'
+          img: 'donkeykongtilenobg.png'
       },
       {
           name: 'luigi',
-          img: './Project-1-Game-Art/luigitilenobg.png'
+          img: 'luigitilenobg.png'
       },
       {
           name: 'mario',
-          img: './Project-1-Game-Art/mariotilenobg.png'
+          img: 'mariotilenobg.png'
       },
       {
           name: 'peach',
-          img: './Project-1-Game-Art/peachtilenobg.png'
+          img: 'peachtilenobg.png'
       },
       {
           name: 'yoshi',
-          img: './Project-1-Game-Art/yoshitilenobg.png'
+          img: 'yoshitilenobg.png'
       },
       {
           name: 'wario',
-          img: './Project-1-Game-Art/wariotilenobg.png'
+          img: 'wariotilenobg.png'
       },
       {
           name: 'bowser',
-          img: './Project-1-Game-Art/bowsertilenobg.png'
+          img: 'bowsertilenobg.png'
       },
       {
           name: 'diddykong',
-          img: './Project-1-Game-Art/diddykongtilenobg.png'
+          img: 'diddykongtilenobg.png'
       },
       {
           name: 'donkeykong',
-          img: './Project-1-Game-Art/donkeykongtilenobg.png'
+          img: 'donkeykongtilenobg.png'
       },
       {
           name: 'luigi',
-          img: './Project-1-Game-Art/luigitilenobg.png'
+          img: 'luigitilenobg.png'
       },
       {
           name: 'mario',
-          img: './Project-1-Game-Art/mariotilenobg.png'
+          img: 'mariotilenobg.png'
       },
       {
           name: 'peach',
-          img: './Project-1-Game-Art/peachtilenobg.png'
+          img: 'peachtilenobg.png'
       },
       {
           name: 'yoshi',
-          img: './Project-1-Game-Art/yoshitilenobg.png'
+          img: 'yoshitilenobg.png'
       },
       {
           name: 'wario',
-          img: './Project-1-Game-Art/wariotilenobg.png'
+          img: 'wariotilenobg.png'
       }
   ]
   
@@ -89,7 +89,7 @@ document.addEventListener('DOMContentLoaded', () => {
     function createGame() {
       for (let i = 0; i < cards.length; i++) {
         const card = document.createElement('img')
-        card.setAttribute('src', 'Project-1-Game-Art/mariocoinnobg.png')
+        card.setAttribute('src', 'mariocoinnobg.png')
         card.setAttribute('data-id', i)
         card.addEventListener('click', flipCard)
         game.appendChild(card)
@@ -103,20 +103,20 @@ document.addEventListener('DOMContentLoaded', () => {
       const cardTwo = cardsChosenId[1]
       
       if(cardOne === cardTwo) {
-        cards[cardOne].setAttribute('src', 'Project-1-Game-Art/mariocoinnobg.png')
-        cards[cardTwo].setAttribute('src', 'Project-1-Game-Art/mariocoinnobg.png')
+        cards[cardOne].setAttribute('src', 'mariocoinnobg.png')
+        cards[cardTwo].setAttribute('src', 'mariocoinnobg.png')
         alert("You can't click the same thing twice!")
       }
       else if (cardPicked[0] === cardPicked[1]) {
         alert('You found a match')
-        cards[cardOne].setAttribute('src', 'Project-1-Game-Art/mariostarnobg.png')
-        cards[cardTwo].setAttribute('src', 'Project-1-Game-Art/mariostarnobg.png')
+        cards[cardOne].setAttribute('src', 'mariostarnobg.png')
+        cards[cardTwo].setAttribute('src', 'mariostarnobg.png')
         cards[cardOne].removeEventListener('click', flipCard)
         cards[cardTwo].removeEventListener('click', flipCard)
         cardsWon.push(cardPicked)
       } else {
-        cards[cardOne].setAttribute('src', 'Project-1-Game-Art/mariocoinnobg.png')
-        cards[cardTwo].setAttribute('src', 'Project-1-Game-Art/mariocoinnobg.png')
+        cards[cardOne].setAttribute('src', 'mariocoinnobg.png')
+        cards[cardTwo].setAttribute('src', 'mariocoinnobg.png')
         clicks += 1
         failedTries.innerHTML = clicks
         alert('Not a match. Please try again.')
@@ -158,3 +158,27 @@ function playAgain() {
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+// function on() {
+//     document.getElementById('overlay').style.display = "none"
+//     document.getElementById('winBox').style.display ='none'
+// }
+
+// function off() {
+
+// }
+
+// function playerWon() {
+//     document.getElementById('whoWon').innerHTML = 'You Won!'
+// }

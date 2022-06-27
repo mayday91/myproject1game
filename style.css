@@ -34,3 +34,16 @@ img {
     background-color: blue;
     text-shadow: 2px black;
 }
+
+#winBox {
+    position: absolute;
+    background-color: darkcyan;
+    display: none;
+    z-index: 100
+}
+
+#overlay {
+    position: absolute;
+    display: none;
+    background-color: rgba(0, 0, 0, 0.5);
+}
