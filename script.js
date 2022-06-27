@@ -79,9 +79,9 @@ const cards = [
     let clicks = 0
 
 document.addEventListener('DOMContentLoaded', () => {
-    createGame(game, cards)
-    shuffle()
-    reset.addEventListener('click', playAgain)
+    // createGame(game, cards)
+    // shuffle()
+    // reset.addEventListener('click', playAgain)
 })
 
 
@@ -157,7 +157,9 @@ function playAgain() {
   resultDisplay.innerHTML = 0
 }
 
-
+createGame(game, cards)
+    shuffle()
+    reset.addEventListener('click', playAgain)
 
 
 
